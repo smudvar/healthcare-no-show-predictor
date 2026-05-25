@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+.env
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data (large files)
+data/*.csv
+data/*.xlsx
+data/*.zip
+!data/sample_data.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vcode/
+.idea/ 
